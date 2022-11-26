@@ -1,0 +1,47 @@
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    text-decoration: overline;
+}
+#currency1 {
+    background-color: #375b86;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin: 20px 0 0 400px;
+    text-align: center;
+    box-shadow: 0 0 18px blueviolet;
+    /* border-radius: 20px; */
+    width: 50vw;
+    color: white;
+    border: none;
+  }
+  #currency1 td {
+    /* border: none; */
+    border: 1px solid rgb(161, 110, 110);
+    /* box-shadow: 0  0  2px  red; */
+    padding: 15px;
+    font-size: 19px;
+  }
+  #currency1 th {
+    padding: 20px;
+  }
+  .current-inpt {
+    min-width: 550px;
+    min-height: 50px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    padding-left: 70px;
+    font-size: 1.1em;
+  }
+  #currSelect {
+    border-color: red;
+    border-radius: 8px;
+    outline: none;
+    height: 40px;
+    font-size: 15px;
+    text-indent: 10px;
+    position: absolute;
+    transform: translate(-105px, 16px);
+  }
